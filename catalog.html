@@ -4,9 +4,12 @@
 <head>
   <meta charset="utf-8">
   <title>Каталог</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="inner-page">
   <header class="main-header">
     <nav class="main-nav">
       <a class="nav-logo" href="index.html">
@@ -39,7 +42,7 @@
         <!--Тут будет форма с чекбоксами-->
         <fieldset>
           <legend>
-            <h3>Производители:</h3>
+            Производители:
           </legend>
           <ul>
             <li class="filter-option">
@@ -81,7 +84,7 @@
         <!--И тут форма-->
         <fieldset>
           <legend>
-            <h3>Группы товаров:</h3>
+            Группы товаров:
           </legend>
           <ul>
             <li class="filter-option">
@@ -229,39 +232,6 @@
       <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
     </p>
   </footer>
-
-  <section class="modal modal-login">
-    <h2>Личный кабинет</h2>
-    <p>Введите свой логин и пароль.</p>
-    <form class="login-form" method="post" action="https://echo.htmlacademy.ru">
-      <p>
-        <label for="login-icon-user">Логин</label>
-        <input id="login-icon-user" class="login-icon-user" type="text" name="login" placeholder="Логин">
-      </p>
-      <p>
-        <label for="login-icon-password">Пароль</label>
-        <input id="login-icon-password" class="login-icon-password" type="password" name="password" placeholder="Пароль">
-      </p>
-      <p>
-        <label>
-          <input class="login-password-info" type="checkbox" name="rememder">
-          Запомните меня
-        </label>
-        <a class="restore" href="#">Я забыл пароль!</a>
-      </p>
-      <button class="button" type="submit">Войти</button>
-    </form>
-
-    <button class="modal-close" type="button">Закрыть</button>
-  </section>
-
-  <section class="modal modal-map">
-    <h2 class="visually-hidden">Как до нас добраться</h2>
-    <p>
-      <img src="img/map.jpg" width="780" height="560" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
-    </p>
-    <button class="modal-close" type="button">Закрыть</button>
-  </section>
 
 </body>
 
